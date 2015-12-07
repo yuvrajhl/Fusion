@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Set new password</title>
+</head>
+<style type="text/css">
+body {
+	background-color: #F0F0F0;
+	background-size: 1000px 500px;
+	color: #5a5656;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 1em;
+}
+
+h1, p {
+	margin-bottom: 10px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+/* ---------- LOGIN ---------- */
+#login {
+	margin: 50px auto;
+	width: 300px;
+}
+
+.test {
+	background-color: #F0F0F0;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 5px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	color: #5a5656;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	height: 50px;
+	outline: none;
+	padding: 5px 10px;
+	width: 265px;
+	-webkit-appearance: none;
+}
+
+form fieldset input[type="submit"] {
+	background-color: #008dde;
+	border: none;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	color: #f4f4f4;
+	cursor: pointer;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	height: 50px;
+	text-transform: uppercase;
+	width: 280px;
+	-webkit-appearance: none;
+}
+
+form fieldset a {
+	color: #5a5656;
+	font-size: 20px;
+}
+
+form fieldset a:hover {
+	text-decoration: underline;
+}
+
+.button {
+	background-color: #1bb2e9;
+	border: none;
+	border-radius: 0px 3px 3px 0px;
+	-moz-border-radius: 0px 3px 3px 0px;
+	-webkit-border-radius: 0px 3px 3px 0px;
+	color: #f4f4f4;
+	cursor: pointer;
+	height: 50px;
+	text-transform: uppercase;
+	width: 300PX;
+}
+</style>
+<body>
+	<h1>Enter your details to reset password</h1>
+	<form action="forget.jsp" method="POST">
+		Form no. : <input class="test" type="text" name="formno" /> <br>
+		Email <input class="test" type="text" name="email" /> <br>
+		Contact no: <input class="test" type="text" name="Contact" /> <br>
+		Your new Password: <input class="test" type="text" name="password" />
+		<br> <input class="button" type="submit" value="Submit">
+	</form>
+</body>
+</html>

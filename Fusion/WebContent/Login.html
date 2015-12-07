@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Login Page</title>
+</head>
+<style type="text/css">
+body {
+	background-color: #F0F0F0;
+	background-image:url("banner_for_anarkali_suit-23-04.jpg");
+	background-size:2000px 800px;
+	color: #5a5656;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	
+	
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 1em;
+}
+
+h1, p {
+	margin-bottom: 10px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+/* ---------- LOGIN ---------- */
+#login {
+	margin: 50px auto;
+	width: 300px;
+}
+
+form fieldset input[type="text"], input[type="password"] {
+	background-color: #e5e5e5;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 5px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	color: #5a5656;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	height: 50px;
+	outline: none;
+	padding: 5px 10px;
+	width: 265px;
+	-webkit-appearance: none;
+}
+
+form fieldset input[type="submit"] {
+	background-color: #008dde;
+	border: none;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	color: #f4f4f4;
+	cursor: pointer;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	height: 50px;
+	text-transform: uppercase;
+	width: 280px;
+	-webkit-appearance: none;
+}
+
+form fieldset a {
+	color: #5a5656;
+	font-size: 20px;
+}
+
+form fieldset a:hover {
+	text-decoration: underline;
+}
+
+.btn-round {
+	background-color: #5a5656;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	color: #f4f4f4;
+	display: block;
+	font-size: 12px;
+	height: 50px;
+	line-height: 50px;
+	margin: 30px 125px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 50px;
+}
+
+.twitter {
+	background-color: #1bb2e9;
+	border: none;
+	border-radius: 0px 3px 3px 0px;
+	-moz-border-radius: 0px 3px 3px 0px;
+	-webkit-border-radius: 0px 3px 3px 0px;
+	color: #f4f4f4;
+	cursor: pointer;
+	height: 50px;
+	text-transform: uppercase;
+	width: 300PX;
+}
+</style>
+<body>
+<center>
+<form action="login.jsp" method="POST">
+
+	
+	
+	
+		
+			<h1>
+				<strong>Welcome.</strong> Please login.
+			</h1>
+		
+				<fieldset>
+					<p>
+						<input type="text" required value="Username" name="username"
+							onBlur="if(this.value=='')this.value='Username'"
+							onFocus="if(this.value=='Username')this.value='' ">
+					</p>
+					<p>
+						<input type="password" name="password">
+					</p>
+					<p>
+						<a href="forget.html">Forgot Password?</a>
+					</p>
+					<p>
+						<input type="submit" value="Login">
+					</p>
+				</fieldset>
+			
+
+
+			<p></p>
+		
+		<!-- end login -->
+		</form>
+		</center>
+	</body>
+
+
+</html>
